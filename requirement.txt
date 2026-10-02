@@ -1,0 +1,31 @@
+Website Requirements
+
+The website shall have,
+
+Three pages (Home, Televisions, About Us)
+Top navigation menu that:
+allows user to "swap between the three pages using JavaScript"
+
+displays the power logo in top lefthand corner which when "clicked returns user to home page"
+
+provides "mouseover feedback" to user
+
+provides "feedback to user about what page they are currently on"
+
+styling implemented with CSS file with "colours matching logo" (see below)
+
+includes footer with year, your name and GenAI acknowledgement, if used, to generate code and/or content
+
+includes placeholder content related to appliance energy consumption in the Australian market.
+
+
+What data columns will you need to to answer the following questions? 
+
+What type of TV screen technologies are currently available in Australia and which are the most frequent?
+What screen sizes are available and which are most frequent?
+Which brands have the largest number of models?
+Which type of screen technology consumes the least amount of power?
+What is the relationship between screen size and power use?
+What is the relationship between star rating and screen size?
+Are there differences in power consumption between brands?
+Any other questions you can think of that could be investigated with this data set?

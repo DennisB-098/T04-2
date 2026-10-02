@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Televisions</title>
+</head>
+
+<body>
+    <header>
+        <img onclick="logoClick()" src="images/PowerIcon.png" id="logo">
+        <div>
+            <ul id="navBar">
+                <li id="homelink" class="navLink" data-page="index">Home</li>
+                <li id="telelink" class="navLink" data-page="televisions">Televisions</li>
+                <li id="aboutlink" class="navLink" data-page="about">About Us</li>
+            </ul>
+        </div>
+    </header>
+    <div id="container">
+        <div class="together">
+            <div class="Telcard">
+                <p>
+                    Even with energy labels, comparing running costs between TV models is still difficult with all of
+                    the
+                    different companies, sizes, technologies and features. Without clear comparisons, this can lead to
+                    higher
+                    electricity consumtion and bigger bills. The information is out there, but most shoppers never see
+                    it.
+                </p>
+            </div>
+
+
+            <div class="Telcard">
+                <h3 title="" class="cardTitle">What You Can Do</h3>
+                <ul class="customList">
+                    <li>Check the star rating and annual kWh on the energy label before buying.</li>
+                    <li>Use Eco mode, lower the brightness, and turn off always listening voice features to reduce
+                        standby
+                        draw.
+                    </li>
+                    <li>Size matters more then the brand. A well-chosen 55 inch LED TV will usually cot less to run than
+                        a
+                        poorly rated 65 inch model.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="sectionTitle">What the Data Says</h3>
+        <div class="intro-text">
+            <p>These findings come from the Australian Government's Television Energy Rating dataset. They show what is
+                actually on the Autralian market.</p>
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 1: What type of TV screen technologies are currently available in Australia
+                and
+                which are the most
+                frequent?
+            </h4>
+            <div class="chart-body">
+                <img src="images/Q1 Pie Chart2.png"
+                    alt="Pie chart showing the distribution of TV screen technologies in Australia">
+                <p>LED-based TVs are the default choice for most Australian household and OLED is a premium niche.</p>
+            </div>
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 2: What screen sizes are available and which are most frequent?</h4>
+            <div class="chart-body">
+                <img src="images/Q2 Bar Chart2.png"
+                    alt="Bar chart showing the distribution of TV screen sizes in Australia">
+                <p>55-inch and 65-inch TVs are the most frequent sizes on the market, with 65-inch models slightly
+                    ahead.
+                    75-inch
+                    TVs are also common. Smaller sizes under 40 inches are becoming rare as prices for larger panels
+                    continue to
+                    drop. This confirms that Australians are buying bigger screens than ever before.</p>
+            </div>
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 3:Which brands have the largest number of models?</h4>
+            <div class="chart-body">
+                <img src="images/Q3 Bar Chart2.png" alt="Bar chart showing the distribution of TV brands in Australia">
+                <p>Kogan, LG and Samsung Electronics have the widest range of TV models available in Australis.</p>
+            </div>
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 4: Which type of screen technology consumes the least amount of power?</h4>
+            <div class="chart-body">
+                <img src="images/Q4 Bar Chart2.png"
+                    alt="Bar chart showing the average power consumption of different TV screen technologies in Australia">
+                <p>LCD TVs consume the least power (median 70W), followed by LCD (LED) at 105W and OLED at
+                    113W. OLEDs use slightly more power but offer better contrast and viewing angles. The gap is not
+                    huge,
+                    but it adds up over years of daily use.</p>
+            </div>
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 5: What is the relationship between screen size and power use?</h4>
+            <div class="chart-body">
+                <img src="images/Q5Scatter Plot.png"
+                    alt="Scatter plot showing the relationship between TV screen sizes and power consumption in Australia">
+                <p>There is a clear positive relationship between screen size and power use. A 55-inch TV typically
+                    draws
+                    around 100–200W, while a 75-inch model can draw 200–400W, and the largest 100-inch+ TVs can exceed
+                    500W. Size is the single biggest factor in how much power a TV uses.</p>
+            </div>
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 6: What is the relationship between star rating and screen size?</h4>
+            <div class="chart-body">
+                <img src="images/Q6Scatter Plot.png"
+                    alt="Scatter plot showing the relationship between TV screen sizes and energy efficiency in Australia">
+                <p>Star ratings are evenly distributed across different screen sizes. You don't have to sacrifice
+                    efficieny
+                    for
+                    size as a high star ratings do appear across all sizes. A large TV can still be energy-smart if you
+                    choose
+                    the right model. </p>
+            </div>
+
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 7: Are there differences in power consumption between brands?</h4>
+            <div class="chart-body">
+                <img src="images/Q7Box Plot.png"
+                    alt="Box plot showing the distribution of power consumption across different TV brands in Australia">
+                <p>This chart only includes brands with the highest count in the dataset. JVC and Sylvox generally have
+                    lower
+                    median power consumption, while Samsung, Sony, and Samsung Electronics tend to have higher median
+                    consumption.</p>
+            </div>
+        </div>
+        <div id="charts-card">
+            <h4 class="chart-title">Chart 8: Which TV brands have the highest and lowest average power consumption?</h4>
+            <div class="chart-body">
+                <img src="images/Average Mode Power For Brands.png"
+                    alt="Bar chart showing the distribution of TV models with different features in Australia">
+                <p>Spark Electronics has the highest average power consumption at 233.45W, while Tavice has the lowest
+                    at
+                    130W
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <h6 id="currentYear"></h6>
+    <h6>Disclaimer: GenAI was used to assist in the creation of this website.<br> Mainly DeepSeek was used to generate
+        some
+        content and github Copilot was used for code completion.</h6>
+</footer>
+
+</html>
