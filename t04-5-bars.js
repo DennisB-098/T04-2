@@ -7,8 +7,13 @@ const createBarChart = (data) => {
         .selectAll("rect")
         .data(data)
         .join("rect")
+
         .attr("class", d => {
             console.log(d); //inspect each row in the Console
             return `bar bar-${d.count}`; //"bar bar-859"
-        });
+        })
+
+        .attr("class", d => `bar bar-${d.count}`)
+        .attr("width", d => d.count) // uses your numeric column directly
+        .attr("height", 16); // constant bar height
 };
